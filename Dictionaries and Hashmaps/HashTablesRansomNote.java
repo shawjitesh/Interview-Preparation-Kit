@@ -42,6 +42,8 @@ public class HashTablesRansomNote {
             }
         }
 
+        in.close();
+
         Set set = note.entrySet();
         Iterator it = set.iterator();
 
